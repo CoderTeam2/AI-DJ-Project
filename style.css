@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-image: url("Bg.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    background-color: black;
+    animation-duration: 4s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    font-size: 25px;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+}
+
+@keyframes example {
+    from {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 0.8
+    }
+}
+
+.play{
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+canvas{
+    border: 3px solid white;
+    padding: 10px;
+    box-shadow: 5px 10px orange ;
+}
