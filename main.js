@@ -31,8 +31,8 @@ function modelLoaded(){
 }
 function play(){
     music1.play();
-    music1.rate(1);
-    music1.volume(1);
+    music1.setRate(1);
+    music1.setVolume(1);
 }
 
 function gotPoses(results){
@@ -42,10 +42,5 @@ function gotPoses(results){
     
         leftX = results[0].pose.leftWrist.x;
         leftY = results[0].pose.leftWrist.y;
-    
-        console.log(rightX);
-        console.log(rightY);
-        console.log(leftX);
-        console.log(leftY);
     }
 }
