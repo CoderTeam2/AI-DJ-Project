@@ -31,7 +31,7 @@ function modelLoaded(){
 }
 function play(){
     music1.play();
-    music1.setRate(1);
+    music1.rate(1);
     music1.setVolume(1);
 }
 
